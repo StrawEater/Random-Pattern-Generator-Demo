@@ -34,8 +34,8 @@ function setup() {
 
   perfomanceInMillis = createP("The pattern was drawn in 0.0 millis.");
 
-  let canvas = createCanvas(windowWidth*0.63, windowHeight);
-  canvas.position(windowWidth*0.37,0);
+  let canvas = createCanvas(windowWidth*0.58, windowHeight);
+  canvas.position(windowWidth*0.42,0);
 
   createRandomPattern();
 
